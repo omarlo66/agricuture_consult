@@ -1,0 +1,201 @@
+header{
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(90deg, #0300c1 0%, #5b46ff 100%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+.navbar-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.navbar-menu a{
+    margin-left: 2px;
+    padding: 5px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+.active-meu{
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #e9e9e9;
+    border-radius: 10px;
+}
+#menu-item{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+body{
+    background-color: #e9e9e9;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.form{
+    border: 1px solid #e9e9e9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: #0300c1 0px 0px 10px 0px;
+    border-radius: 10px;
+}
+.space{
+    width: 100%;
+    height: 10px;
+    background: transparent;
+}
+.form .input{
+    width: 80%;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #7f0000;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.form .input input{
+    border: none;
+    border-bottom: 2px dotted #000;
+    width: 60%;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000;
+    background-color: #e9e9e9;
+}
+.form  .input input:focus{
+    outline: none;
+}
+.form button{
+    width: 80%;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #5b46ff;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #5b46ff;
+    box-shadow: #5b46ff 0px 0px 10px 0px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.form button:hover{
+    background-color: #5b46ff;
+    color: #fff;
+}
+
+.farm_plots{
+    width: 100%;
+    height: 100px;
+    background: #e9e9e9;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.farm_plots table{
+    width: 100%;
+    height: 100px;
+    background: #e9e9e9;
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+}
+.farm_plots table th{
+    width: 20%;
+    height: 100px;
+    background: #161616;
+    color: #fff;
+    padding: 10px;
+    margin: 5px;
+    margin-left: 5%;
+}
+.farm_plots table td{
+    width: 20%;
+    height: 100px;
+    background: #c0c0c0;
+    color: #161616;
+    padding: 10px;
+    margin: 5px;
+    margin-left: 5%;
+}
+.farm_plots table tr{
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+}
+.farm_page{
+    width: 100%;
+    height: 100px;
+    background: #e9e9e9;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    position: static;
+    margin-top: 15%;
+}
+.farm_page button{
+    width: 80%;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #5b46ff;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #5b46ff;
+    box-shadow: #5b46ff 0px 0px 10px 0px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.farm_page .location{
+    width: 100%;
+    height: 100px;
+    background: #e9e9e9;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.search{
+    width: 100%;
+    height: 100px;
+    background: #e9e9e9;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: 1px solid #000;
+}
+.search input{
+    width: 80%;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #7f0000;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
